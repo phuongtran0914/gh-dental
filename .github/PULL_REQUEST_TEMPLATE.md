@@ -1,14 +1,20 @@
-Got some code for us? Awesome 🎊!
+- [ ] I updated the code to the newest main branch.
+- [ ] I self-reviewed my change list.
 
-Please include a description of your change & check your PR against this list, thanks!
+# Description (optional)
 
-- [ ] There's a clear use-case for this code change, explained below
-- [ ] Commit message has a short title & references relevant issues
-- [ ] The build will pass (run `yarn test:all` and `yarn lint`)
+**Reference issues**: <input reference issue (optional)>
 
-We appreciate your contribution!
+<input description>
 
----
+# How to test this MR?
 
-<!-- Leave the line below if you'd like GitHub Copilot to generate a summary from your commit -->
-copilot:summary
+<Describe how to test the MR>
+
+- Does it need to update installed packages?
+- Does it need to change environment variables?
+- Is there any special note?
+
+# Notify reviewer
+
+<tag reviewer>
