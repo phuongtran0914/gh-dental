@@ -216,7 +216,7 @@
     },
     "theme": {
         "active_theme": {
-            "defaultValue": "source",
+            "defaultValue": "dental-clinic",
             "flags": "RO",
             "type": "string"
         }

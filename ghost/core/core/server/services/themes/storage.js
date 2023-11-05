@@ -127,7 +127,7 @@ module.exports = {
         }
     },
     destroy: async function (themeName) {
-        if (themeName === 'casper' || themeName === 'source') {
+        if (themeName === 'casper' || themeName === 'source' || themeName === 'dental-clinic') {
             throw new errors.ValidationError({
                 message: tpl(messages.destroyDefaultTheme)
             });

@@ -32,7 +32,9 @@ export default class InstallThemeModal extends Component {
     }
 
     get isDefaultOrLegacyTheme() {
-        return this.themeName.toLowerCase() === 'casper' || this.themeName.toLowerCase() === 'source';
+        return this.themeName.toLowerCase() === 'casper'
+            || this.themeName.toLowerCase() === 'source' 
+            || this.themeName.toLowerCase() === 'dental-clinic';
     }
 
     get isConfirming() {

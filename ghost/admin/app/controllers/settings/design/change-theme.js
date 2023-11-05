@@ -13,6 +13,12 @@ export default class ChangeThemeController extends Controller {
     themes = this.store.peekAll('theme');
 
     officialThemes = [{
+        name: 'dental-clinic',
+        category: 'Blog',
+        previewUrl: '', // TODO
+        ref: 'default',
+        image: '' // TODO
+    },{
         name: 'Source',
         category: 'News',
         previewUrl: 'https://source.ghost.io/',
