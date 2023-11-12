@@ -34,6 +34,8 @@ content/themes/**
 content/themes/casper/yarn.lock
 !content/themes/source/**
 content/themes/source/yarn.lock
+!content/themes/dental-clinic/**
+content/themes/dental-clinic/yarn.lock
 node_modules/**
 core/server/lib/members/static/auth/node_modules/**
 **/*.db
@@ -53,6 +55,7 @@ test/**
 CONTRIBUTING.md
 content/themes/casper/SECURITY.md
 content/themes/source/SECURITY.md
+content/themes/dental-clinic/SECURITY.md
 SECURITY.md
 renovate.json
 *.html
@@ -65,8 +68,10 @@ bower_components/**
 gulpfile.js
 !content/themes/casper/gulpfile.js
 !content/themes/source/gulpfile.js
+!content/themes/dental-clinic/gulpfile.js
 package-lock.json
 content/themes/casper/config.*.json
 content/themes/source/config.*.json
+content/themes/dental-clinic/config.*.json
 config.*.json
 !core/shared/config/env/**
