@@ -1,8 +1,10 @@
 [submodule "ghost/core/content/themes/casper"]
 	path = ghost/core/content/themes/casper
-	url = ../../TryGhost/Casper.git
-	ignore = all
+	url = https://github.com/TryGhost/Casper.git
 [submodule "ghost/core/content/themes/source"]
 	path = ghost/core/content/themes/source
-	url = ../../TryGhost/Source.git
-	ignore = all
+	url = https://github.com/TryGhost/Source.git
+[submodule "ghost/core/content/themes/dental-clinic"]
+	path = ghost/core/content/themes/dental-clinic
+	url = https://github.com/phuongtran0914/gh-dental-theme.git
+	branch = main

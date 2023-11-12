@@ -20,7 +20,7 @@ grey='\033[0;90m'
 red='\033[0;31m'
 
 ROOT_DIR=$(git rev-parse --show-cdup)
-SUBMODULES=$(grep path ${ROOT_DIR}.gitmodules | sed 's/^.*path = //')
+SUBMODULES=$(grep path ${ROOT_DIR}.gitmodules | sed 's/^.*path = //' | grep -v 'ghost/core/content/themes/dental-clinic')
 MOD_SUBMODULES=$(git diff --cached --name-only --ignore-submodules=none | grep -F "$SUBMODULES")
 
 echo -e "Checking submodules ${grey}(pre-commit hook)${no_color} "
