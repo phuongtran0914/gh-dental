@@ -19,7 +19,7 @@ export default class GhThemeTableComponent extends Component {
     }
 
     isDefaultTheme(theme) {
-        return theme.name.toLowerCase() === 'source';
+        return theme.name.toLowerCase() === 'dental-clinic';
     }
 
     isLegacyTheme(theme) {

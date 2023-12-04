@@ -134,7 +134,7 @@
             "type": "string"
         },
         "navigation": {
-            "defaultValue": "[{\"label\":\"Home\",\"url\":\"/\"},{\"label\":\"About\",\"url\":\"/about/\"}]",
+            "defaultValue": "[{\"label\":\"Trang chủ\",\"url\":\"/\"},{\"label\":\"Về chúng tôi\",\"url\":\"/about/\"}]",
             "type": "array"
         },
         "secondary_navigation": {
@@ -216,7 +216,7 @@
     },
     "theme": {
         "active_theme": {
-            "defaultValue": "source",
+            "defaultValue": "dental-clinic",
             "flags": "RO",
             "type": "string"
         }

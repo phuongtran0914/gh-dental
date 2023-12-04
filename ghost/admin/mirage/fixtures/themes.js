@@ -1,11 +1,18 @@
 export default [
     {
+        name: 'dental-clinic',
+        package: {
+            name: 'dental-clinic',
+            version: '1.0'
+        },
+        active: true
+    },
+    {
         name: 'source',
         package: {
             name: 'source',
             version: '1.0'
-        },
-        active: true
+        }
     },
     {
         name: 'casper',

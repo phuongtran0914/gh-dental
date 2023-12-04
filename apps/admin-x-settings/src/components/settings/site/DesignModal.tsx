@@ -151,11 +151,28 @@ const DesignModal: React.FC = () => {
         };
     }, {} as {[key: string]: CustomThemeSetting[] | undefined});
 
-    const themeSettingSections = Object.entries(themeSettingGroups).map(([id, group]) => ({
-        id,
-        settings: group || [],
-        title: id === 'site-wide' ? 'Site wide' : (id === 'homepage' ? 'Homepage' : 'Post')
-    }));
+    const themeSettingSections = Object.entries(themeSettingGroups).map(([id, group]) => {
+        let title: string
+        switch (id) {
+            case 'site-wide':
+                title = 'Site wide'
+                break
+            case 'homepage':
+                title = 'Home page'
+                break
+            case 'contact':
+                title = 'Contact'
+                break
+            default:
+                title = 'Post'
+                break
+        }
+        return {
+            id,
+            settings: group || [],
+            title,
+        }
+    });
 
     let previewTabs: Tab[] = [];
     if (latestPost) {

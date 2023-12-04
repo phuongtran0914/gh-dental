@@ -134,7 +134,7 @@ export function isActiveTheme(theme: Theme): boolean {
 }
 
 export function isDefaultTheme(theme: Theme | OfficialTheme): boolean {
-    return theme.name.toLowerCase() === 'source';
+    return theme.name.toLowerCase() === 'dental-clinic';
 }
 
 export function isLegacyTheme(theme: Theme | OfficialTheme): boolean {

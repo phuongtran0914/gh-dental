@@ -12,6 +12,12 @@ import {tracked} from '@glimmer/tracking';
 
 // TODO: Long term move asset management directly in AdminX
 const officialThemes = [{
+    name: 'dental-clinic',
+    category: 'Blog',
+    previewUrl: '', // TODO
+    ref: 'default',
+    image: '' // TODO
+},{
     name: 'Source',
     category: 'News',
     previewUrl: 'https://source.ghost.io/',
