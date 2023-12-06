@@ -134,7 +134,7 @@
             "type": "string"
         },
         "navigation": {
-            "defaultValue": "[{\"label\":\"Home\",\"url\":\"/\"},{\"label\":\"About\",\"url\":\"/about/\"}]",
+            "defaultValue": "[{\"label\": \"Giới thiệu\", \"url\": \"/gioi-thieu\"}, {\"label\": \"Dịch vụ\", \"url\": \"/dich-vu\"}, {\"label\": \"Bài viết\", \"url\": \"/bai-viet\"}, {\"label\": \"Liên hệ\", \"url\": \"/lien-he\"}]",
             "type": "array"
         },
         "secondary_navigation": {
@@ -216,7 +216,7 @@
     },
     "theme": {
         "active_theme": {
-            "defaultValue": "source",
+            "defaultValue": "dental-clinic",
             "flags": "RO",
             "type": "string"
         }
@@ -248,7 +248,7 @@
             "type": "array"
         },
         "members_signup_access": {
-            "defaultValue": "all",
+            "defaultValue": "none",
             "validations": {
                 "isEmpty": false,
                 "isIn": [["all", "invite", "none"]]

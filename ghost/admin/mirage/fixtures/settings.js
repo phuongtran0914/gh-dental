@@ -35,8 +35,10 @@ export default [
     setting('site', 'facebook', 'test'),
     setting('site', 'twitter', '@test'),
     setting('site', 'navigation', JSON.stringify([
-        {label: 'Home', url: '/'},
-        {label: 'About', url: '/about'}
+        {label: 'Giới thiệu', url: '/gioi-thieu'},
+        {label: 'Dịch vụ', url: '/dich-vu'},
+        {label: 'Bài viết', url: '/bai-viet'},
+        {label: 'Liên hệ', url: '/lien-he'}
     ])),
     setting('site', 'secondary_navigation', JSON.stringify([])),
     setting('site', 'meta_title', null),
@@ -49,7 +51,7 @@ export default [
     setting('site', 'twitter_description', null),
 
     // THEME
-    setting('theme', 'active_theme', 'source'),
+    setting('theme', 'active_theme', 'dental-clinic'),
 
     // PRIVATE
     setting('private', 'is_private', false),
@@ -59,7 +61,7 @@ export default [
     // MEMBERS
     setting('members', 'default_content_visibility', 'public'),
     setting('members', 'default_content_visibility_tiers', JSON.stringify([])),
-    setting('members', 'members_signup_access', 'all'),
+    setting('members', 'members_signup_access', 'none'),
     setting('members', 'members_support_address', 'noreply'),
     setting('members', 'stripe_secret_key', null),
     setting('members', 'stripe_publishable_key', null),

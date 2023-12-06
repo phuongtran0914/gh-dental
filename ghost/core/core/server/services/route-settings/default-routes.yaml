@@ -1,9 +1,15 @@
 routes:
+  /: home
+  /gioi-thieu/: about
+  /dich-vu/: services
+  /lien-he/: contact
+
 
 collections:
-  /:
-    permalink: /{slug}/
-    template: index
+  /bai-viet/:
+    permalink: '/bai-viet/{slug}/'
+    template:
+      - index
 
 taxonomies:
   tag: /tag/{slug}/

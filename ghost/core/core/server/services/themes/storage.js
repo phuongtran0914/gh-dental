@@ -50,7 +50,7 @@ module.exports = {
         const backupName = `${themeName}_${ObjectID()}`;
 
         // check if zip name matches one of the default themes
-        if (zip.name === 'casper.zip' || zip.name === 'source.zip') {
+        if (zip.name === 'casper.zip' || zip.name === 'source.zip' || themeName === 'dental-clinic') {
             throw new errors.ValidationError({
                 message: tpl(messages.overrideDefaultTheme)
             });
