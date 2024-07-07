@@ -82,6 +82,21 @@ For anyone wishing to contribute to Ghost or to hack/customize core files we rec
 
 &nbsp;
 
+# Docker build image
+
+
+```shell
+yarn build
+```
+
+```shell
+yarn archive
+```
+
+```shell
+docker build -t phuongtran0914/gh-dental .
+```
+
 # Ghost sponsors
 
 We'd like to extend big thanks to our sponsors and partners who make Ghost possible. If you're interested in sponsoring Ghost and supporting the project, please check out our profile on [GitHub sponsors](https://github.com/sponsors/TryGhost) :heart:

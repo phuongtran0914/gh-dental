@@ -1,6 +1,6 @@
 # https://docs.ghost.org/faq/node-versions/
 # https://github.com/nodejs/Release (looking for "LTS")
-FROM node:18.16.1-bullseye-slim
+FROM node:18.20.3-bullseye-slim
 
 # grab gosu for easy step-down from root
 # https://github.com/tianon/gosu/releases
